@@ -31,7 +31,7 @@ export default class Demo extends React.Component {
   render() {
     return (
       <Wrapper>
-        <Title>Welcome to React</Title>
+        <Title>Cross-Platform Components</Title>
         <Logo
           source={{
             uri: logoUrl,
