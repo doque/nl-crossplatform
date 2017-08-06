@@ -1,0 +1,26 @@
+{
+  "name": "nl-crossplatform",
+  "version": "1.0.0",
+  "description": "Simple example of cross-platform components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd native && npm install && cd .. && cd web && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doque/nl-crossplatform.git"
+  },
+  "keywords": [
+    "react-primitives",
+    "styled-components",
+    "react",
+    "cross-platform"
+  ],
+  "author": "Dominique Busser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doque/nl-crossplatform/issues"
+  },
+  "homepage": "https://github.com/doque/nl-crossplatform#readme"
+}
