@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components/primitives";
 
-const logoUrl = "http://i.imgur.com/EZc3lRP.png";
-
 const Wrapper = styled.View`
   flex: 1;
   justify-content: center;
@@ -26,6 +24,7 @@ const Description = styled.Text`
 `;
 
 const Logo = styled.Image``;
+const logoUrl = "http://i.imgur.com/EZc3lRP.png";
 
 export default class Demo extends React.Component {
   render() {
